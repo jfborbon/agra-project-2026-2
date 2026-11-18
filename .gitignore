@@ -1,0 +1,6 @@
+*.out
+*.o
+*.exe
+
+b.in
+b.out

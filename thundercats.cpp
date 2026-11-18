@@ -67,7 +67,7 @@ para llegar a la par que Mumm-Ra es
 Velocidad Lion-O = distancia Lion-O / tiempo Mumm-Ra
 */
 long double lionOMaxSpeed(vector<int>& lionODistances, vector<long double>& mummRaTimes, int mummRa) {
-    long double ans = (long double)INT_MIN;
+    long double ans = -1.0L;
     for (int intersection = 0; intersection < lionODistances.size(); intersection++) {
         if (intersection != mummRa && lionODistances[intersection] != INT_MAX) {
             ans = max(ans, (long double)lionODistances[intersection] / mummRaTimes[intersection]);
