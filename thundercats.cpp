@@ -15,7 +15,7 @@ Análisis de complejidad:
 
 using namespace std;
 
-// abreviación para la representación de grafo ponderado por medio de lista de aristas
+// abreviación para la representación de grafo ponderado por medio de lista de adyacencia
 typedef vector<vector<pair<int, int>>> Graph;
 
 /*
